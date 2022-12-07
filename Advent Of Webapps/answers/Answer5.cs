@@ -31,16 +31,8 @@ namespace Advent_Of_Webapps.answers
                 var rounds = Text.Split("\r\n");
                 var elements = new List<char[]>();
                 var instructions = new List<char[]>();
-                var one = new LinkedList<char>();
-                var two = new LinkedList<char>();
-                var three = new LinkedList<char>();
-                var four = new LinkedList<char>();
-                var five = new LinkedList<char>();
-                var six = new LinkedList<char>();
-                var seven = new LinkedList<char>();
-                var eight = new LinkedList<char>();
-                var nine = new LinkedList<char>();
-                var lists = new List<LinkedList<char>>();
+
+                var lists = new List<LinkedList<char>>(new LinkedList<char>[9]);
                 var tops = "";
                 for (int i = 0; i < 8; i++)
                 {
@@ -50,55 +42,21 @@ namespace Advent_Of_Webapps.answers
                 {
                     instructions.Add(rounds[i].ToCharArray());
                 }
-                for (var elm = 0; elm <= elements.Count - 1; elm++)
+                for (var elm = 0; elm <= elements.Count; elm++)
                 {
-                    if (!(elements[elm][1] == ' '))
+                    var link = new LinkedList<char>();
+                    for (int i = 0; i <= elements.Count - 1; i++)
                     {
-                        one.AddFirst(elements[elm][1]);
-                    }
-                    if (!(elements[elm][5] == ' '))
-                    {
-                        two.AddFirst(elements[elm][5]);
-                    }
-                    if (!(elements[elm][9] == ' '))
-                    {
-                        three.AddFirst(elements[elm][9]);
-                    }
-                    if (!(elements[elm][13] == ' '))
-                    {
-                        four.AddFirst(elements[elm][13]);
-                    }
-                    if (!(elements[elm][17] == ' '))
-                    {
-                        five.AddFirst(elements[elm][17]);
-                    }
-                    if (!(elements[elm][21] == ' '))
-                    {
-                        six.AddFirst(elements[elm][21]);
-                    }
-                    if (!(elements[elm][25] == ' '))
-                    {
-                        seven.AddFirst(elements[elm][25]);
-                    }
-                    if (!(elements[elm][29] == ' '))
-                    {
-                        eight.AddFirst(elements[elm][29]);
-                    }
-                    if (!(elements[elm][33] == ' '))
-                    {
-                        nine.AddFirst(elements[elm][33]);
+                        if (elements[i][(elm * 4) + 1] != ' ')
+                        {
+                            link.AddFirst(elements[i][(elm * 4) + 1]);
+                        }
+
                     }
 
+                    lists[elm] = link;
                 }
-                lists.Add(one);
-                lists.Add(two);
-                lists.Add(three);
-                lists.Add(four);
-                lists.Add(five);
-                lists.Add(six);
-                lists.Add(seven);
-                lists.Add(eight);
-                lists.Add(nine);
+
 
                 foreach (var instruction in instructions)
                 {
@@ -110,32 +68,17 @@ namespace Advent_Of_Webapps.answers
                     }
                     for (int i = 0; i <= Int32.Parse(b) - 1; i++)
                     {
-                        try
+
+                        if (instruction[13] != ' ')
                         {
-                            if (lists[(instruction[12] - 49)].Count != 0)
-                            {
-                                lists[(instruction[17] - 49)].AddLast(lists[(instruction[12] - 49)].Last.Value);
-                                lists[instruction[12] - 49].RemoveLast();
-                            }
-
-
+                            lists[(instruction[18] - 49)].AddLast(lists[(instruction[13] - 49)].Last.Value);
+                            lists[instruction[13] - 49].RemoveLast();
                         }
-                        catch (Exception)
+                        else
                         {
-                            try
-                            {
-                                if (lists[(instruction[13] - 49)].Count != 0)
-                                {
-                                    lists[(instruction[18] - 49)].AddLast(lists[(instruction[13] - 49)].Last.Value);
-                                    lists[instruction[13] - 49].RemoveLast();
-                                }
-                            }
-                            catch (Exception e)
-                            {
 
-                                break;
-                            }
-
+                            lists[(instruction[17] - 49)].AddLast(lists[(instruction[12] - 49)].Last.Value);
+                            lists[instruction[12] - 49].RemoveLast();
 
                         }
 
@@ -160,16 +103,8 @@ namespace Advent_Of_Webapps.answers
                 var rounds = Text.Split("\r\n");
                 var elements = new List<char[]>();
                 var instructions = new List<char[]>();
-                var one = new List<char>();
-                var two = new List<char>();
-                var three = new List<char>();
-                var four = new List<char>();
-                var five = new List<char>();
-                var six = new List<char>();
-                var seven = new List<char>();
-                var eight = new List<char>();
-                var nine = new List<char>();
-                var lists = new List<List<char>>();
+
+                var lists = new List<List<char>>(new List<char>[9]);
                 var tops = "";
                 for (int i = 0; i < 8; i++)
                 {
@@ -179,55 +114,20 @@ namespace Advent_Of_Webapps.answers
                 {
                     instructions.Add(rounds[i].ToCharArray());
                 }
-                for (var elm = 0; elm <= elements.Count - 1; elm++)
+                for (var elm = 0; elm <= elements.Count; elm++)
                 {
-                    if (!(elements[elm][1] == ' '))
+                    var link = new List<char>();
+                    for (int i = 0; i <= elements.Count - 1; i++)
                     {
-                        one.Add(elements[elm][1]);
-                    }
-                    if (!(elements[elm][5] == ' '))
-                    {
-                        two.Add(elements[elm][5]);
-                    }
-                    if (!(elements[elm][9] == ' '))
-                    {
-                        three.Add(elements[elm][9]);
-                    }
-                    if (!(elements[elm][13] == ' '))
-                    {
-                        four.Add(elements[elm][13]);
-                    }
-                    if (!(elements[elm][17] == ' '))
-                    {
-                        five.Add(elements[elm][17]);
-                    }
-                    if (!(elements[elm][21] == ' '))
-                    {
-                        six.Add(elements[elm][21]);
-                    }
-                    if (!(elements[elm][25] == ' '))
-                    {
-                        seven.Add(elements[elm][25]);
-                    }
-                    if (!(elements[elm][29] == ' '))
-                    {
-                        eight.Add(elements[elm][29]);
-                    }
-                    if (!(elements[elm][33] == ' '))
-                    {
-                        nine.Add(elements[elm][33]);
+                        if (elements[i][(elm * 4) + 1] != ' ')
+                        {
+                            link.Add(elements[i][(elm * 4) + 1]);
+                        }
+
                     }
 
+                    lists[elm] = link;
                 }
-                lists.Add(one);
-                lists.Add(two);
-                lists.Add(three);
-                lists.Add(four);
-                lists.Add(five);
-                lists.Add(six);
-                lists.Add(seven);
-                lists.Add(eight);
-                lists.Add(nine);
 
                 foreach (var instruction in instructions)
                 {
@@ -239,49 +139,37 @@ namespace Advent_Of_Webapps.answers
                     }
                     for (int i = 0; i <= Int32.Parse(b) - 1; i++)
                     {
-                        try
+
+                        if (instruction[13] != ' ')
                         {
-                            if (lists[(instruction[12] - 49)].Count != 0)
-                            {
-                                temp.Add(lists[instruction[12] - 49][0]);
-                                lists[instruction[12] - 49].RemoveAt(0);
-                            }
-
-
+                            temp.Add(lists[instruction[13] - 49][0]);
+                            lists[instruction[13] - 49].RemoveAt(0);
                         }
-                        catch (Exception)
+                        else
                         {
-                            try
-                            {
-                                if (lists[(instruction[13] - 49)].Count != 0)
-                                {
-                                    temp.Add(lists[instruction[13] - 49][0]);
-                                    lists[instruction[13] - 49].RemoveAt(0);
-                                }
-                            }
-                            catch (Exception e)
-                            {
-
-                                break;
-                            }
-
-
+                            temp.Add(lists[instruction[12] - 49][0]);
+                            lists[instruction[12] - 49].RemoveAt(0);
                         }
 
-                    }
-                    try
-                    {
-                        lists[instruction[17] - 49].InsertRange(0, temp);
-                    }
-                    catch (Exception)
-                    {
 
-                        lists[instruction[18] - 49].InsertRange(0, temp); 
+
+
+
+
                     }
                     
 
+                        if (instruction[13] != ' ')
+                        {
+                            lists[instruction[18] - 49].InsertRange(0, temp);
+                        }
 
-                   
+                        else
+                        {
+                            lists[instruction[17] - 49].InsertRange(0, temp);
+                        }
+
+
                 }
                 foreach (var item in lists)
                 {
