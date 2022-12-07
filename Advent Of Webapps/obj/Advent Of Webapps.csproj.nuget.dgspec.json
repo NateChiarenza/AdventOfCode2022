@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Advent of code\\Advent Of Webapps\\Advent Of Webapps\\Advent Of Webapps.csproj": {}
+    "G:\\Advent of code\\AdventOfCode2022\\Advent Of Webapps\\Advent Of Webapps.csproj": {}
   },
   "projects": {
-    "G:\\Advent of code\\Advent Of Webapps\\Advent Of Webapps\\Advent Of Webapps.csproj": {
+    "G:\\Advent of code\\AdventOfCode2022\\Advent Of Webapps\\Advent Of Webapps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Advent of code\\Advent Of Webapps\\Advent Of Webapps\\Advent Of Webapps.csproj",
+        "projectUniqueName": "G:\\Advent of code\\AdventOfCode2022\\Advent Of Webapps\\Advent Of Webapps.csproj",
         "projectName": "Advent Of Webapps",
-        "projectPath": "G:\\Advent of code\\Advent Of Webapps\\Advent Of Webapps\\Advent Of Webapps.csproj",
+        "projectPath": "G:\\Advent of code\\AdventOfCode2022\\Advent Of Webapps\\Advent Of Webapps.csproj",
         "packagesPath": "C:\\Users\\nechi\\.nuget\\packages\\",
-        "outputPath": "G:\\Advent of code\\Advent Of Webapps\\Advent Of Webapps\\obj\\",
+        "outputPath": "G:\\Advent of code\\AdventOfCode2022\\Advent Of Webapps\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nechi\\AppData\\Roaming\\NuGet\\NuGet.Config",

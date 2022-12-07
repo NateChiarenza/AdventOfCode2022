@@ -43,3 +43,47 @@ G:\Advent of code\Advent Of Webapps\Advent Of Webapps\bin\Debug\net5.0\Swashbuck
 G:\Advent of code\Advent Of Webapps\Advent Of Webapps\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 G:\Advent of code\Advent Of Webapps\Advent Of Webapps\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 G:\Advent of code\Advent Of Webapps\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.MvcApplicationPartsAssemblyInfo.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.GeneratedMSBuildEditorConfig.editorconfig
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.AssemblyInfoInputs.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.AssemblyInfo.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.csproj.CoreCompileInputs.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.MvcApplicationPartsAssemblyInfo.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.MvcApplicationPartsAssemblyInfo.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.RazorAssemblyInfo.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.RazorAssemblyInfo.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\appsettings.Development.json
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\appsettings.json
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.exe
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.deps.json
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.runtimeconfig.json
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.runtimeconfig.dev.json
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\ref\Advent Of Webapps.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.pdb
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.Views.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Advent Of Webapps.Views.pdb
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\staticwebassets\Advent Of Webapps.StaticWebAssets.Manifest.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\staticwebassets\Advent Of Webapps.StaticWebAssets.xml
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\scopedcss\bundle\Advent Of Webapps.styles.css
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.TagHelpers.input.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.TagHelpers.output.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.RazorCoreGenerate.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.RazorTargetAssemblyInfo.cache
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.RazorTargetAssemblyInfo.cs
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.Views.pdb
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.csproj.CopyComplete
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\ref\Advent Of Webapps.dll
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.pdb
+G:\Advent of code\AdventOfCode2022\Advent Of Webapps\obj\Debug\net5.0\Advent Of Webapps.genruntimeconfig.cache

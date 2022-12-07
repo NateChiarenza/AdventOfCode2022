@@ -28,7 +28,7 @@ namespace Advent_Of_Webapps.answers
             using (var reader = new StreamReader(input.OpenReadStream()))
             {
                 var Text = await reader.ReadToEndAsync();
-                
+
                 var Input = new List<char>();
                 Input.AddRange(Text.ToCharArray());
                 var index = 0;
@@ -88,6 +88,6 @@ namespace Advent_Of_Webapps.answers
                 return index.ToString();
             }
         }
-        }
     }
 }
+
