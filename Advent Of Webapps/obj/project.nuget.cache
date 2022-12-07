@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oeMsVqoz0AmS2U9ndCfAwuK45RMyuorQitDCSXGmSzM8HeFLUyQxbeLTJ7PoWhiggi/yNEl2PzZfgEp3xbO3ZQ==",
+  "success": true,
+  "projectFilePath": "G:\\Advent of code\\Advent Of Webapps\\Advent Of Webapps\\Advent Of Webapps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nechi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
