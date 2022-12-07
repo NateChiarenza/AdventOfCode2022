@@ -21,6 +21,7 @@ namespace Advent_Of_Webapps
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                     Console.WriteLine("Listening on: https://localhost:5001/swagger/index.html\n\n");
                 });
     }
 }
