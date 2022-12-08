@@ -35,6 +35,7 @@ namespace Advent_Of_Webapps
             services.AddScoped<IAdvent4Service, answer4>();
             services.AddScoped<IAdvent5Service, answer5>();
             services.AddScoped<IAdvent6Service, answer6>();
+            services.AddScoped<IAdvent8Service, answer8>();
             services.AddSwaggerGen();
         }
 
